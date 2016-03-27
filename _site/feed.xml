@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Modi&#39;s TIL blog for the developermode project</description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Mar 2016 04:47:01 -0500</pubDate>
-    <lastBuildDate>Sun, 27 Mar 2016 04:47:01 -0500</lastBuildDate>
+    <link>http://hackermo.de/</link>
+    <atom:link href="http://hackermo.de/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 27 Mar 2016 04:56:06 -0500</pubDate>
+    <lastBuildDate>Sun, 27 Mar 2016 04:56:06 -0500</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Sat, 26 Mar 2016 17:48:45 -0500</pubDate>
-        <link>http://127.0.0.1:4000/daily/2016/03/26/open-source-import/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/daily/2016/03/26/open-source-import/</guid>
+        <link>http://hackermo.de/daily/2016/03/26/open-source-import/</link>
+        <guid isPermaLink="true">http://hackermo.de/daily/2016/03/26/open-source-import/</guid>
         
         
         <category>daily</category>
