@@ -9,7 +9,7 @@ categories:
 - daily
 ---
 
-The worst part of coding for fun is perhaps coding the mundane stuff that gets in the way of cool new things. Clearly at this point is's reasonable to import this trivial, mundane thing from a library. Well this past week's [npm controversry][npm] certianly displayed this idea taken to the extreme with things such as react [breaking over left-pad][source0].
+The worst part of coding for fun is perhaps coding the mundane stuff that gets in the way of cool new things. It's quite well accepted today to import these trivial and mundane things from library and packages. Well this past week's [npm controversry][npm] certianly displayed this idea taken to the extreme when things such as react [broke over left-pad][source0].
 
 I noticed an interesting debate about this. It's around the question of if we've forgotten how to program :P
 

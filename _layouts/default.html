@@ -9,6 +9,7 @@
         <title>{% if page.title %} {% capture  a %} {{page.title}} | {{site.name}} {% endcapture %} {{ a }} {% else %} {{ site.name }} {% endif %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.meta_description }}{% endif %}">
+        <meta name="google-site-verification" content="HNQkLpnaRAzgtAWHR3O_pR-qjUZ-OSD22jAd8JAQlSw" />
         <link rel="canonical" 
         href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         
