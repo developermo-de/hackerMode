@@ -736,14 +736,38 @@ p.post-meta {
 
   .column-1 {
     text-align: left;
+    a{
+        color:#aaa;
+        @include transition(opacity, .1s);
+        &:hover, &:active, &:focus {
+            border-bottom-color: $base-04;
+            opacity: 0.7;
+        }
+    }
     @include column(.3333);
   }
   .column-2 {
     text-align: center;
+    a{
+        color:#aaa;
+        @include transition(opacity, .1s);
+        &:hover, &:active, &:focus {
+            border-bottom-color: $base-04;
+            opacity: 0.7;
+        }
+    }
     @include column(.3333);
   }
   .column-3 {
     text-align: right;
+    a{
+        color:#aaa;
+        @include transition(opacity, .1s);
+        &:hover, &:active, &:focus {
+            border-bottom-color: $base-04;
+            opacity: 0.7;
+        }
+    }
     @include column(.3333);
   }
   .column-full {
@@ -771,4 +795,10 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $base-05;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+  height: 50px;
 }

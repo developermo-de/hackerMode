@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="home" class="page-content wc-container">
 	<div class="posts">
-  		{% for post in site.posts limit:20 %}
+  		{% for post in paginator.posts limit:15 %}
   			<div class="post">
     			<h3 class="post-title">
 			      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
@@ -26,7 +26,22 @@ layout: default
   			</div>
   		{% endfor %}
 	</div>
+    <!-- Pagination links -->
+    <div class="pagination">
+    </div>
 	<div class="post-footer">
-		<div class="column-full"><a href="{{ '/all_posts' | prepend: site.baseurl | prepend: site.url }}">/ all_posts</a></div>
+		<!-- <div class="column-full"><a href="{{ '/all_posts' | prepend: site.baseurl | prepend: site.url }}">/ all_posts</a></div> -->
+        <div class="column-1">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+      {% endif %}
+        </div>
+        <div class="column-2"><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></div>
+        <div class="column-3">
+      
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+      {% endif %}
+        </div>
 	</div>
 </div>

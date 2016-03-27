@@ -2,10 +2,10 @@
 baseurl: ''
 
 # Site live URL
-url: http://hackermo.de
+#url: http://hackermo.de
 
 # Localhost 
-#url: http://127.0.0.1:4000  
+url: http://127.0.0.1:4000  
 
 
 name: hackermode
@@ -66,3 +66,7 @@ exclude:
 sass:
     sass_dir: assets/css/_sass
     style: :compressed
+
+paginate: 15
+
+gems: [jekyll-paginate]
