@@ -12,13 +12,14 @@ layout: default
     			</h3>
 
           <p class="post-meta">
-            {% if (post.categories.size > 0 %}
             <span class="categories">
-            {{ post.categories | array_to_sentence_string }}
+                {{ post.categories | array_to_sentence_string }}
             </span> |
-            {% endif %}
             <span class="post-date">
-            {{ post.date | date: "%a, %b %-d %Y" }} 
+                {{ post.date | date: "%a, %b %-d %Y" }} 
+            </span> | 
+            <span class="post-date">
+                <a href={{post.attr}}>{{ post.author}} </a>
             </span>
 	  				{{ post.excerpt }}	
   				</p>
