@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="page-content wc-container" style="padding-top:1vh;">
+    <p style="text-align:left; margin-bottom:0vh;"><a href="/index.html">/ ..</a></p>
+	
+	<div class="post">
+		<h3>{{ page.title }}</h3>
+		<p class="post-meta">
+			{% if (page.categories.size > 0 %}
+      <span class="categories">
+      {{ page.categories | array_to_sentence_string }}
+      </span> |
+	    {% endif %}
+	    <span class="post-date">
+    	{{ page.date | date: "%a, %b %-d %Y" }} 
+	    </span> |
+        <span class="author">
+        <a href={{page.attr}}>{{page.author}}</a>
+        </span>
+		</p>		
+		<div class="post">
+			{{ content }}
+		</div>
+	</div>
+    
+    <div class="post-footer">
+		<div class="column-full"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">/ home</a></div>
+	</div>
+
+</div>
+ 
