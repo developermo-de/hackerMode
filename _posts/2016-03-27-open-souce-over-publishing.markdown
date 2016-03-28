@@ -9,17 +9,17 @@ categories:
 - daily
 ---
 
-In 2004 Google published the [MapReduce paper][mapReduce-paper] but didn't release any open source implementation on it. As is the case with any popular paper, others did create open source implementations; most notably, Yahoo’s Hadoop. Hadoop went on to create an entire industry and left Google incompatible with the rest of the world as Google continued to it’s own technology. 
+In 2004 Google published the [MapReduce paper][mapReduce-paper] but didn't release any open source implementation for it. As is the case with any popular paper, others did create open source implementations; most notably, Yahoo’s Hadoop. Hadoop went on to create an entire industry and left Google incompatible with the rest of the world as Google continued to it’s own technology. 
 
 It’s obviously ironic that Google is incompatible with a standard it created. However, in hindsight it’s obvious that this would have happened. Clearly it’s something I’ll be thinking about next time I’m about to publish 😛. 
 
-On the topic of publishing, this effect is something that [Prof. Forsyth][daf] has often suggested at our research meetings. He’s often recommends us to not worry about the perfect implementation but rather, to focus on the idea and its soundness. His argument has always been that we’ll find a hundred people willing to implement it for us so long as we have a good idea.
+On the topic of publishing, this effect is something that [Prof. Forsyth][daf] has often suggested at our research meetings. He often recommends us to not worry about the perfect implementation but rather, to focus on the idea and its soundness. His argument has always been that we’ll find a hundred people willing to implement it for us so long as we have a good idea.
 
 Here's the post that mentioned this:
 
 > [A Decade Of Container Control At Google][source0]
 
-##Misc
+## Misc
 Other articles from today that I thought were intersting
 
 > [Hiring PMs - There isn't much correlation between PM experience and how well PMs perform.][misc1]
