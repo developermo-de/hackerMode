@@ -30,10 +30,9 @@ Certain keys have comments asking for them to not be changed. Please include the
 ###Building
 
 1. Fork and clone the repository. 
-2. Open `_config.yml`. Comment out the live url and use the localhost url.
-3. Create your post in ```_posts``` and give it the appropriate file name.
-4. Rememeber to ```bundle install```.
-5. Use ```bundle exec jekyll serve``` to serve and test.
+2. Create your post in ```_posts``` and give it the appropriate file name.
+3. Rememeber to ```bundle install```.
+4. Use ```bundle exec jekyll serve --config _config-dev.yml``` to serve and test.
 
-Once you're done, remember to change the `_config.yml` back. And then submit a pull request :)
+Once you're done, submit a pull request :)
 
