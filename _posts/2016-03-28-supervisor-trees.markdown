@@ -29,7 +29,7 @@ Other articles from today that I thought were intersting
 > [AUTOMATING XKCD-STYLE NARRATIVE CHARTS][misc2]
 
 [st-docs]:http://erlang.org/doc/design_principles/sup_princ.html
-[let-it-crash]:[http://blogs.teamb.com/craigstuntz/2008/05/19/37819/]
+[let-it-crash]:http://blogs.teamb.com/craigstuntz/2008/05/19/37819/
 [source0]: http://www.nextplatform.com/2016/03/22/decade-container-control-google/
 [misc1]: https://gist.github.com/bearfrieze/a746c6f12d8bada03589
 [misc2]: https://source.opennews.org/en-US/articles/automating-xkcd-style-narrative-charts/
