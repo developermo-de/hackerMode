@@ -19,8 +19,6 @@ Erlang's Supervisor Tree is essentially a slick implementation of such a recover
 
 This is definitely seeming interesting enough to warrant a deeper dive. Perhaps I'll revisit it for a weekly post :)
 
-> [A Decade Of Container Control At Google][source0]
-
 ## Misc
 Other articles from today that I thought were intersting
 
@@ -30,6 +28,5 @@ Other articles from today that I thought were intersting
 
 [st-docs]:http://erlang.org/doc/design_principles/sup_princ.html
 [let-it-crash]:http://blogs.teamb.com/craigstuntz/2008/05/19/37819/
-[source0]: http://www.nextplatform.com/2016/03/22/decade-container-control-google/
 [misc1]: https://gist.github.com/bearfrieze/a746c6f12d8bada03589
 [misc2]: https://source.opennews.org/en-US/articles/automating-xkcd-style-narrative-charts/
