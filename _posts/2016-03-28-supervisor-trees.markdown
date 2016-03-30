@@ -9,7 +9,7 @@ categories:
 - daily
 ---
 
-Imagine applications crash multiple times every second but still work just fine. This may sound like a magical scenario but you're probably actually quite familiar with this. In fact, there's an entire programming philosophy called ['let it crash' programming][let-it-crash] And as I found out today, Erlang has [Supervisor Trees][st-docs] that help handle this magic.
+Imagine applications that crash multiple times every second but still work just fine. This may sound like a magical scenario but you're probably actually quite familiar with this. In fact, there's an entire programming philosophy called ['let it crash' programming][let-it-crash] And as I found out today, Erlang has [Supervisor Trees][st-docs] that help handle this magic.
 
 _Note: I'm not very familiar with distributed computing or with Erlang. This is my first real dive into this stuff. Please let me know about errors in my write-up when you see them ♥._
 
