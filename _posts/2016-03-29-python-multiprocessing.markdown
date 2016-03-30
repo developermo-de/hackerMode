@@ -4,7 +4,7 @@ title:  "Python Multiprocessing: Compute on n cores to make your code n times fa
 date:   2016-03-29 23:53:00
 author: self
 attr: http://akmodi.com
-description: "Programs that crash multiple times a second but still work fine."
+description: "Easily scale your data concurrency performance with the number of your cores"
 categories:
 - daily
 ---
