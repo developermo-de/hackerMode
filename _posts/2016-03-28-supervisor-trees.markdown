@@ -15,7 +15,7 @@ _Note: I'm not very familiar with distributed computing or with Erlang. This is 
 
 In regards to being familiar with crashing being fine - think of any REST API. Perhaps an issue with a specific API call causes a crash. Surely this shouldn't take down your server; there are other clients that need to make calls. Now of course servers don't crash this easily as they implement some reasonable recovery mechanism. 
 
-Erlang's Supervisor Tree is essentially a slick implementation of such a recovery mechanism. Think of it as an exceptions implementation that works asynchronously - asynchronous exceptions. The processes in your app are monitored for failures and the relevant process are restarted in a safe way to make sure you app doesn't crash.
+Erlang's Supervisor Tree is essentially a slick implementation of such a recovery mechanism. Think of it as an exceptions implementation that works asynchronously - asynchronous exceptions. The processes in your app are monitored for failures and the relevant processes are restarted in a safe way to make sure you app doesn't crash.
 
 This is definitely seeming interesting enough to warrant a deeper dive. Perhaps I'll revisit it for a weekly post :)
 
