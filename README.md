@@ -32,7 +32,7 @@ Certain keys have comments asking for them to not be changed. Please include the
 1. Fork and clone the repository. 
 2. Create your post in ```_posts``` and give it the appropriate file name.
 3. Rememeber to ```bundle install```.
-4. Use ```bundle exec jekyll serve --config _config-dev.yml``` to serve and test.
+4. Use ```./devtest``` to serve and test. (This just runs ```bundle exec jekyll serve --config _config-dev.yml```)
 
 Once you're done, submit a pull request :)
 
