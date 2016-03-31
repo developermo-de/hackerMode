@@ -63,6 +63,7 @@ The point of this post was twofold:
 Other articles I enjoyed today.
 
 >[Ubuntu on Windows? What's really going on?][misc1]
+
 >[Defending the future from the present - EFF vs W3C][misc2]
 
 [misc1]: http://blog.dustinkirkland.com/2016/03/ubuntu-on-windows.html
