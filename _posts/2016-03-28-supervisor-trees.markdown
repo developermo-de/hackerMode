@@ -7,6 +7,7 @@ attr: http://akmodi.com
 description: "Programs that crash multiple times a second but still work fine."
 categories:
 - daily
+technologies: erlang
 ---
 
 Imagine applications that crash multiple times every second but still work just fine. This may sound like a magical scenario but you're probably actually quite familiar with this. In fact, there's an entire programming philosophy called ['let it crash' programming][let-it-crash] And as I found out today, Erlang has [Supervisor Trees][st-docs] that help handle this magic.

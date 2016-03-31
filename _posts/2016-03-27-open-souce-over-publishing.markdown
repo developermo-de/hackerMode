@@ -7,6 +7,7 @@ attr: http://akmodi.com
 description: "Publishing your work instead of open sourcing your work can mean that you become incompatible with the rest of the world."
 categories:
 - daily
+technologies: opensource
 ---
 
 In 2004 Google published the [MapReduce paper][mapReduce-paper] but didn't release any open source implementation for it. As is the case with any popular paper, others did create open source implementations; most notably, Yahoo’s Hadoop. Hadoop went on to create an entire industry and left Google incompatible with the rest of the world as Google continued to it’s own technology. 

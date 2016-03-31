@@ -7,6 +7,7 @@ attr: http://akmodi.com
 description: "It seems like many open source hobby coders prefer to use tiny modles to avoid writing even small amounts of trivial code. As has been demonstrated by important builds breaking after this week's npm debacle"
 categories:
 - daily
+technologies: opensource
 ---
 
 The worst part of coding for fun is perhaps coding the mundane stuff that gets in the way of cool new things. It's quite well accepted today to import these trivial and mundane things from library and packages. Well this past week's [npm controversry][npm] certianly displayed this idea taken to the extreme when things such as react [broke over left-pad][source0].

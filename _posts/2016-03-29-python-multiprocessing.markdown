@@ -7,6 +7,7 @@ attr: http://akmodi.com
 description: "Easily scale your data concurrency performance with the number of your cores"
 categories:
 - daily
+technologies: python
 ---
 
 Building concurrent applications in Python is known to be challening because of how the Global Interpreter Lock works. However, TIL that building data concurrency into Python apps is ridiculously simple using [Multiprocessing][multiproc]. It's a standard library API that abstracts the use of subprocesses to get around the GIL.
